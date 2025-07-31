@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: slategray;
+}
+.logo{
+    color:white;
+    font-size: 30px;
+}
+div ul{
+    display: flex;
+    gap : 100px;
+}
+div ul li{
+    list-style: none;
+}
+
+div ul a{
+    text-decoration: none;
+    color: white;
+}
+div ul a:hover{
+    color: rgb(228, 228, 157);
+    transition: all 0.3s ease-in;
+}
+.active-link {
+    color: orange;
+}
